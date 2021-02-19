@@ -2,12 +2,12 @@
 C++ Design Patterns Implementations.
 
 ### What can I find here?
-Design Pattern | Notes
------|------
-`Abstract Factory` |
-`Factory` | "Naive" solution
-`Factory with Lambda expression` | Avoid writing N classes for the factory objects using Lambda expressions
-`Factory with Prototype` | Avoid writing N classes for the factory objects using Prototype design pattern
+Design Pattern
+----- |
+`Abstract Factory`  
+`Factory`  
+`Factory with Lambda expression` | 
+`Factory with Prototype` | 
 `Adapter` |
 `Object Adapter` |
 `Strategy` |
@@ -15,6 +15,26 @@ Design Pattern | Notes
 `Prototype` |
 `Bridge` |
 `Builder` |
-`Decorator` | "Naive solution"
-`Composite acyclic` | Adding a mechanism to avoid cycles 
-`Proxy` | Effective cache management. Prevents objects duplication and leads to vaccination on the complexity time
+`Decorator` | 
+`Decorator Permanently` | 
+`Composite acyclic` | 
+`Proxy` | 
+
+
+## Notes
+
+**Composite acyclic:** 
+- You cannot be a manager of an employee who already has a manager
+- You can not be your manager's manager
+- You can not be your own manager
+
+**Decorator Permanently:** <br />
+Enforcing an order ratio when creating the objects. <br />
+The result will always be the same, regardless of the order in which the objests are inserted.
+
+**Factory design**, Avoiding writing N cllasses for the factory objets: 
+- Factory with Lambda expression
+- Factory with Prototype
+
+**Proxy:** <br />
+Effective cache management. Prevents objects duplication and leads to vaccination on the complexity time.

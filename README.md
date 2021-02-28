@@ -25,8 +25,8 @@ Design Pattern
 
 **Composite acyclic:** 
 - You cannot be a manager of an employee who already has a manager
-- You can not be your manager's manager
-- You can not be your own manager
+- You cannot be your manager's manager
+- You cannot be your own manager
 
 **Decorator Permanently:** <br />
 Enforcing an order ratio when creating the objects. <br />
